@@ -29,7 +29,7 @@ class Banco{
 
 	public function read($email, $senha) {
 
-	    $sql = "SELECT nome FROM aluno WHERE email = ${email} AND senha = ${senha}";
+	    $sql = "SELECT * FROM aluno WHERE email = ${email} AND senha = ${senha}";
 
 	    $pdoStm = $this->connection->query($sql);
 	    return $pdoStm ? $pdoStm->fetch(PDO::FETCH_ASSOC) : null;
