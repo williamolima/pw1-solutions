@@ -1,4 +1,5 @@
 CREATE DATABASE academico;
+
 USE academico;
 
 CREATE TABLE aluno (

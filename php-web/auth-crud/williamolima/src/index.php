@@ -41,7 +41,6 @@
       <input type="password" class="form-control" name="form-login-senha" id="inputPassword2" placeholder="Senha">
     </div>  
     <button type="submit" class="btn btn-primary mb-2">Confirmar identidade</button>
-    <button type="submit" class="btn btn-primary mb-2 ml-3">Criar nova conta</button>
   </form>
 
 </div>
